@@ -10,15 +10,16 @@
   }
   &--bigger {
     font-size: $font__size--headings-bigger;
+    line-height: 44px;
     font-weight: 600;
   }
   &--big {
     font-size: $font__size--headings-big;
-    line-height: 44px;
+    line-height: 28px;
     letter-spacing: -0.525px;
     font-weight: 300;
   }
-  &--little less least {
+  &--little {
     font-size: $font__size--headings-little;
     line-height: 24px;
     letter-spacing: -0.285px;
@@ -32,13 +33,23 @@
   }
   &--least {
     font-size: $font__size--headings-least;
-    line-height: 24px;
+    line-height: 16px;
     font-weight: 300;
+  }
+  &--extrasmall {
+    font-size: $font__size--headings-extrasmall;
+    line-height: 12px;
   }
   &--dark {
     color: $color--dark-text;
   }
   &--darker {
     color: $color--darker-text;
+  }
+  &--opacity {
+    opacity: 0.7;
+  }
+  &--heavy {
+    font-weight: 600;
   }
 }

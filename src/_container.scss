@@ -16,9 +16,9 @@
   "datebox datebox datebox datebox"
   "confbox confbox modelbox modelbox"; 
 
-
   &__box {
     padding: 22px 25px;
+    background-color: $color--light;
   }
 }
 @media (min-width: 481px) {
@@ -36,8 +36,8 @@
 @media (min-width: 1025px) {
   .container {
     min-height: 788px;
-    grid-template-columns: 2fr 2fr 1fr 1fr;/*+*/
-    grid-template-rows: 1fr 1fr;/*+*/
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "headline buttonbox datebox datebox"
     "headline buttonbox confbox modelbox";

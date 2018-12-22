@@ -1,19 +1,17 @@
 .buttonbox {
   display: grid;
-  background-color: #add8e6;
   grid-area: 2/1/3/5;
 }
 
 @media (min-width: 481px) {
   .buttonbox { 
-    background-color: #add8e6;
     grid-area: 1/2/2/3;}
   }
 
 
 @media (min-width: 1025px) {
   .buttonbox {
-    background-color: #add8e6;
     grid-area: 1/2/3/3;
     }
   }
+  

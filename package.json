@@ -1,0 +1,30 @@
+{
+  "name": "4th_task",
+  "version": "1.0.0",
+  "description": "4th_task (Audi card)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp sass",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qik-in-mate/4th_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qik-in-mate/4th_task/issues"
+  },
+  "homepage": "https://github.com/qik-in-mate/4th_task#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

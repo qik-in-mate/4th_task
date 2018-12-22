@@ -1,0 +1,44 @@
+.headings {
+  font-family: $font__family--main;
+  color: $color--light-text;
+
+  &--biggest {
+    font-size: $font__size--headings-biggest;
+    line-height: 60px;
+    letter-spacing: -0.84px;
+    font-weight: 700;
+  }
+  &--bigger {
+    font-size: $font__size--headings-bigger;
+    font-weight: 600;
+  }
+  &--big {
+    font-size: $font__size--headings-big;
+    line-height: 44px;
+    letter-spacing: -0.525px;
+    font-weight: 300;
+  }
+  &--little less least {
+    font-size: $font__size--headings-little;
+    line-height: 24px;
+    letter-spacing: -0.285px;
+    font-weight: 300;
+  }
+  &--less {
+    font-size: $font__size--headings-less;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    font-weight: 300;
+  }
+  &--least {
+    font-size: $font__size--headings-least;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  &--dark {
+    color: $color--dark-text;
+  }
+  &--darker {
+    color: $color--darker-text;
+  }
+}

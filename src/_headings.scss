@@ -4,41 +4,28 @@
 
   &--biggest {
     font-size: $font__size--headings-biggest;
-    line-height: 60px;
-    letter-spacing: -0.84px;
+    letter-spacing: 10px;
     font-weight: 700;
   }
   &--bigger {
     font-size: $font__size--headings-bigger;
-    line-height: 44px;
+    letter-spacing: 5px;
     font-weight: 600;
   }
   &--big {
     font-size: $font__size--headings-big;
-    line-height: 28px;
-    letter-spacing: -0.525px;
-    font-weight: 300;
   }
   &--little {
     font-size: $font__size--headings-little;
-    line-height: 24px;
-    letter-spacing: -0.285px;
-    font-weight: 300;
   }
   &--less {
     font-size: $font__size--headings-less;
-    line-height: 20px;
-    letter-spacing: -0.24px;
-    font-weight: 300;
   }
   &--least {
     font-size: $font__size--headings-least;
-    line-height: 16px;
-    font-weight: 300;
   }
   &--extrasmall {
     font-size: $font__size--headings-extrasmall;
-    line-height: 12px;
   }
   &--dark {
     color: $color--dark-text;
@@ -53,3 +40,67 @@
     font-weight: 600;
   }
 }
+
+
+@media (min-width: 481px) {
+  .headings {
+
+    &--biggest {
+      font-size: $font__size--headings-biggest*1.8;
+    }
+    &--bigger {
+      font-size: $font__size--headings-bigger*1.8;
+    }
+    &--big {
+      font-size: $font__size--headings-big*1.5;
+    }
+    &--little {
+      font-size: $font__size--headings-little*1.5;
+    }
+    &--less {
+      font-size: $font__size--headings-less*1.5;
+    }
+    &--least {
+      font-size: $font__size--headings-least*1.5;
+    }
+    &--extrasmall {
+      font-size: $font__size--headings-extrasmall*1.5;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .headings {
+
+    &--biggest {
+      font-size: $font__size--headings-biggest*2.5;
+    }
+    &--bigger {
+      font-size: $font__size--headings-bigger*3;
+    }
+    &--big {
+      font-size: $font__size--headings-big*2;
+    }
+    &--little {
+      font-size: $font__size--headings-little*2.5;
+    }
+    &--less {
+      font-size: $font__size--headings-less*2;
+    }
+    &--least {
+      font-size: $font__size--headings-least*2;
+    }
+    &--extrasmall {
+      font-size: $font__size--headings-extrasmall*2;
+    }
+  }
+}
+
+
+$font__size--headings-biggest: 72px;
+$font__size--headings-bigger: 35px;
+$font__size--headings-big: 22px;
+$font__size--headings-little: 19px;
+$font__size--headings-less: 15px;
+$font__size--headings-least: 12px;
+$font__size--headings-extrasmall: 10px;

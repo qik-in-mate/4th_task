@@ -24,8 +24,8 @@
 @media (min-width: 481px) {
   .container {
     min-height: 908px;
-    grid-template-columns: 1fr 1fr;/*+*/
-    grid-template-rows: 38% 31% 31%;/*+*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 38% 31% 31%;
     grid-template-areas: 
     "headline buttonbox"
     "datebox datebox"

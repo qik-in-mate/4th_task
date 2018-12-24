@@ -1,0 +1,17 @@
+.modelbox {
+  display: grid;
+  grid-area: 4/3/5/5;
+}
+
+@media (min-width: 481px) {
+  .modelbox {
+    grid-area: 3/2/4/3;
+    }
+  }
+
+@media (min-width: 1025px) {
+  .modelbox {
+    grid-area: 2/4/3/5; 
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.confbox {
+  display: grid;
+  grid-area: 4/1/5/3;
+}
+
+@media (min-width: 481px) {
+  .confbox {
+    grid-area: 3/1/4/2;
+    }
+  }
+
+@media (min-width: 1025px) {
+  .confbox {
+    grid-area: 2/3/3/4;
+    }
+  }
+  

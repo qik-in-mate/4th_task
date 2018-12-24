@@ -1,0 +1,45 @@
+.container {
+  min-height: 645px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-color: $color--darker;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 104px 4fr 3fr 4fr;
+  align-content: unset;
+  justify-content: stretch;
+  grid-gap: 5px;
+  grid-template-areas: 
+  "headline headline headline headline"
+  "buttonbox buttonbox buttonbox buttonbox"
+  "datebox datebox datebox datebox"
+  "confbox confbox modelbox modelbox"; 
+
+  &__box {
+    padding: 22px 25px;
+    background-color: $color--light;
+  }
+}
+@media (min-width: 481px) {
+  .container {
+    min-height: 908px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 38% 31% 31%;
+    grid-template-areas: 
+    "headline buttonbox"
+    "datebox datebox"
+    "confbox modelbox";
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    min-height: 788px;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "headline buttonbox datebox datebox"
+    "headline buttonbox confbox modelbox";
+  }
+}

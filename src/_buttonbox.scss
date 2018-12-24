@@ -1,0 +1,17 @@
+.buttonbox {
+  display: grid;
+  grid-area: 2/1/3/5;
+}
+
+@media (min-width: 481px) {
+  .buttonbox { 
+    grid-area: 1/2/2/3;}
+  }
+
+
+@media (min-width: 1025px) {
+  .buttonbox {
+    grid-area: 1/2/3/3;
+    }
+  }
+  

@@ -15,7 +15,6 @@
   "buttonbox buttonbox buttonbox buttonbox"
   "datebox datebox datebox datebox"
   "confbox confbox modelbox modelbox"; 
-
   &__box {
     padding: 22px 25px;
     background-color: $color--light;
@@ -32,7 +31,6 @@
     "confbox modelbox";
   }
 }
-
 @media (min-width: 1025px) {
   .container {
     min-height: 788px;

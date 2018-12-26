@@ -6,7 +6,6 @@
   font-size: $font__size--headings-least;
   color: $color--light;
   cursor: pointer;
-
   &--light {
     border: 1px solid $color--dark;
     color: $color--dark;
@@ -17,7 +16,6 @@
     color: $color--light;
     border: 1px solid $color--dark;
   }
-
   &--text {
     background-color: $color--own;
     padding: 10px 0;
@@ -25,23 +23,19 @@
     border: 1px solid $color--own;
   }
 }
-
 @media (min-width: 481px) {
 .button {
   padding: 15px 30px;
   font-size: $font__size--headings-least*1.5;
-
     &--text {
       padding: 15px 0;
     }
   }
 }
-
 @media (min-width: 1025px) {
 .button {
   padding: 30px 100px;
   font-size: $font__size--headings-least*2;
-  
     &--light {
       width: 100%;
     }

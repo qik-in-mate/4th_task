@@ -1,7 +1,6 @@
 .headings {
   font-family: $font__family--main;
   color: $color--light-text;
-
   &--biggest {
     font-size: $font__size--headings-biggest;
     letter-spacing: 10px;
@@ -40,67 +39,53 @@
     font-weight: 600;
   }
 }
-
-
 @media (min-width: 481px) {
   .headings {
-
     &--biggest {
-      font-size: $font__size--headings-biggest*1.8;
+      font-size: $font__size--headings-biggest * 1.8;
     }
     &--bigger {
-      font-size: $font__size--headings-bigger*1.8;
+      font-size: $font__size--headings-bigger * 1.8;
     }
     &--big {
-      font-size: $font__size--headings-big*1.5;
+      font-size: $font__size--headings-big * 1.5;
     }
     &--little {
-      font-size: $font__size--headings-little*1.5;
+      font-size: $font__size--headings-little * 1.5;
     }
     &--less {
-      font-size: $font__size--headings-less*1.5;
+      font-size: $font__size--headings-less * 1.5;
     }
     &--least {
-      font-size: $font__size--headings-least*1.5;
+      font-size: $font__size--headings-least * 1.5;
     }
     &--extrasmall {
-      font-size: $font__size--headings-extrasmall*1.5;
+      font-size: $font__size--headings-extrasmall * 1.5;
     }
   }
 }
-
 @media (min-width: 1025px) {
   .headings {
-
     &--biggest {
-      font-size: $font__size--headings-biggest*2.5;
+      font-size: $font__size--headings-biggest * 2.5;
     }
     &--bigger {
-      font-size: $font__size--headings-bigger*3;
+      font-size: $font__size--headings-bigger * 3;
     }
     &--big {
-      font-size: $font__size--headings-big*2;
+      font-size: $font__size--headings-big * 2;
     }
     &--little {
-      font-size: $font__size--headings-little*2.5;
+      font-size: $font__size--headings-little * 2.5;
     }
     &--less {
-      font-size: $font__size--headings-less*2;
+      font-size: $font__size--headings-less * 2;
     }
     &--least {
-      font-size: $font__size--headings-least*2;
+      font-size: $font__size--headings-least * 2;
     }
     &--extrasmall {
-      font-size: $font__size--headings-extrasmall*2;
+      font-size: $font__size--headings-extrasmall * 2;
     }
   }
 }
-
-
-$font__size--headings-biggest: 72px;
-$font__size--headings-bigger: 35px;
-$font__size--headings-big: 22px;
-$font__size--headings-little: 19px;
-$font__size--headings-less: 15px;
-$font__size--headings-least: 12px;
-$font__size--headings-extrasmall: 10px;

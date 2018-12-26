@@ -8,7 +8,6 @@
   background: url("../images/1_mobile.png") no-repeat scroll right;
   background-size: cover;
 }
-
 @media (min-width: 481px) {
   .headbox {
     grid-template-columns: auto;
@@ -18,7 +17,6 @@
     background-size: cover;
   }
 }
-
 @media (min-width: 1025px) {
   .headbox {
     grid-template-columns: auto;
@@ -28,4 +26,3 @@
     background-size: cover;
     }
   }
-  

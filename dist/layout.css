@@ -15,9 +15,6 @@
   justify-content: stretch;
   grid-gap: 5px;
   grid-template-areas: "headline headline headline headline" "buttonbox buttonbox buttonbox buttonbox" "datebox datebox datebox datebox" "confbox confbox modelbox modelbox"; }
-  .container__box {
-    padding: 22px 25px;
-    background-color: #ffffff; }
 
 @media (min-width: 481px) {
   .container {
@@ -32,6 +29,10 @@
     grid-template-columns: 2fr 2fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "headline buttonbox datebox datebox" "headline buttonbox confbox modelbox"; } }
+
+.card {
+  padding: 22px 25px;
+  background-color: #ffffff; }
 
 .headbox {
   display: grid;

@@ -1,0 +1,18 @@
+.confbox {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 5fr;
+  grid-area: 4/1/5/3;
+}
+@media (min-width: 481px) {
+  .confbox {
+    grid-area: 3/1/4/2;
+  }
+}
+@media (min-width: 1025px) {
+  .confbox {
+    grid-area: 2/3/3/4;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 3fr;
+  }
+}
